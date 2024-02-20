@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-atis
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr714-0075-0021-tenant/tkrw-pr714-0075-0021-app/devfile-sample-atis@sha256:b0ffe640eddb0c500cd7e17c15cc0a7c22eed87bb3916cbf1fb9ae3702f1ff3a
         name: my-nodejs
         ports:
         - containerPort: 3001
